@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Alumni</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/img/Logo1.JPEG" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">SIUMNI-Backend</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Ahmad Admin</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas  nav-icon"></i>
+              <p>
+                Alumni
+              </p>
+              <i class="right fas fa-angle-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr style= "background-color : gray">
+
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>Loker</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="far fa-circle nav-icon"></i>
+              <p>
+                Mitra NF
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr style= "background-color : gray">
+
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-check nav-icon"></i>
+              <p>Logout</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Data Mahasiswa</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Alumni  </a><i class="right fas fa-angle-right"></i></li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+
+    <!-- Content Wrapper. Contains page content -->
+  
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-2">
+            <h1 class="m-0">Angkatan :</h1>
+          </div><!-- /.col -->
+          <div class="form-group">
+            <label for="sel1">
+            <select class="form-control" id="sel1">
+              <option>2021</option>
+              <option>2020</option>
+              <option>2019</option>
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+            </select>
+            </label>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    
+    <!-- /.content-header -->
+
+    
+    
+
+    <!-- table content -->
+    
+    <fieldset class="border p-2">
+      <legend  class="w-auto">Daftarkan Alumni</legend>
+
+      <form>
+        <div class="form-group row">
+          <label for="cari_alumni" class="col-4 col-form-label">Cari Nama Alumni :</label> 
+          <div class="col-8">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fa fa-search"></i>
+                </div>
+              </div> 
+              <input id="cari_alumni" name="cari_alumni" type="text" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="studi" class="col-4 col-form-label">Program Studi :</label> 
+          <div class="col-8">
+            <input id="studi" name="studi" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="th_masuk" class="col-4 col-form-label">Tahun Masuk :</label> 
+          <div class="col-8">
+            <input id="th_masuk" name="th_masuk" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="th_lulus" class="col-4 col-form-label">Tahun Lulus :</label> 
+          <div class="col-8">
+            <input id="th_lulus" name="th_lulus" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="LinkedIn" class="col-4 col-form-label">Alamat LinkedIn :</label> 
+          <div class="col-8">
+            <input id="LinkedIn" name="LinkedIn" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="pekerjaan" class="col-4 col-form-label">Pekerjaan :</label> 
+          <div class="col-8">
+            <input id="pekerjaan" name="pekerjaan" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="kantor" class="col-4 col-form-label">Alamat Kantor :</label> 
+          <div class="col-8">
+            <textarea id="kantor" name="kantor" cols="40" rows="5" class="form-control"></textarea>
+          </div>
+        </div> 
+        <div class="form-group row">
+          <div class="offset-4 col-8">
+            <button name="submit" type="submit" class="btn btn-primary">Simpan</button>
+          </div>
+        </div>
+      </form>
+
+    </fieldset>
+
+    <!-- End table content -->
+  
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
